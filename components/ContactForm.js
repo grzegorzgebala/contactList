@@ -17,6 +17,7 @@ var ContactForm = React.createClass({
           value: this.props.contact.lastName,
         }),
         React.createElement('input', {
+          className: 'mail',
           type: 'email',
           placeholder: 'Email',
           value: this.props.contact.email,

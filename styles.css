@@ -1,0 +1,64 @@
+.app {
+	width: 50%;
+	text-align: center;
+	border: 2px solid black;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.contactForm {
+	display: flex;
+	border: 2px solid black;
+	margin: 5px;
+	flex-wrap: wrap;
+}
+
+button {
+	width: 160px;
+	height: 60px;
+	border-radius: 10px;
+	background-color: #72A7FC;
+}
+
+.box {
+	text-align: left;
+    width: 60%;
+    background-color: #E8EAF6;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.contactItem {
+	display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.name {
+	font-size: 16px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.mail {
+	border: none;
+	width: 75%;
+    margin: 20px;
+    font-size: 30px;
+    border-bottom: 2px solid grey;
+}
+
+.image {
+	height: 50px;
+}
+
+input {
+	border: none;
+	width: 45%;
+    margin: 20px;
+    font-size: 30px;
+    border-bottom: 2px solid grey;
+}
